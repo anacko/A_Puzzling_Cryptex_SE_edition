@@ -68,10 +68,9 @@ def setfunction(position = 0):
     def mDown():
         return moveDown(x = set_x)
     set_x.set(last_state[position])
-    for j in range(map_ncol):
-        ttk.Button(mapframe, image = ArrowUp, command = mUp).grid(row = 0, column = position)
-        ttk.Label(mapframe, textvariable = set_x).grid(row = 1, column = position)
-        ttk.Button(mapframe, image = ArrowDown, command = mDown).grid(row = 1, column = position, sticky = S, rowspan = 4)
+    ttk.Button(mapframe, image = ArrowUp, command = mUp).grid(row = 0, column = position)
+    ttk.Label(mapframe, textvariable = set_x).grid(row = 1, column = position)
+    ttk.Button(mapframe, image = ArrowDown, command = mDown).grid(row = 1, column = position, sticky = S, rowspan = 4)
 
 for x in range(len(last_state)):
     setfunction(position = x)
