@@ -31,4 +31,4 @@ Their suggested method of solving is to copy out the columns onto actual strips 
 Source:
 https://puzzling.stackexchange.com/questions/99032/a-puzzling-cryptex
 
-Have Fun!
+Have lots of Fun!
